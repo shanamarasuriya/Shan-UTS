@@ -1,0 +1,182 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #afadadb4;
+    margin: 0;
+    padding: 110px 5px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: cursive;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(75, 72, 72);
+    color: white;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-right: 20px;
+    border: 3px solid #e6e9ecc7;
+    border-width: 5px;
+}
+
+.personal-info {
+    max-width: 600px;
+}
+
+div.bio {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: cursive;
+}
+
+.mainmenu {
+    background-color: #706f6f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.mainmenu a:hover {
+    background-color: #555;
+    color: #ffd700;
+}
+
+.image-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.image-desc img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.desc-content {
+    max-width: 600px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.me {
+    width: 100%;
+    overflow: auto;
+    width: 33%;
+    float: left;
+}
+
+.descriptions {
+    font-size: large;
+    font-weight: bold;
+}
+
+.education-info {
+    text-align: center;
+}
+
+.education-image {
+    max-width: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zoom-in {
+    transform: scale(0);
+    animation: zoomIn ease-in-out 1s forwards;
+}
+
+.rotate {
+    transform-origin: center;
+    transform: rotate(0);
+    animation: rotateAnimation ease-in-out 1s forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-top: auto;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.footer-link:hover {
+    background-color: #555;
+}
