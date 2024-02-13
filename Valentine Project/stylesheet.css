@@ -1,0 +1,117 @@
+* {
+    background-color: #ffd6dc;
+    font-family: cursive;
+}
+
+#pic {
+    border-radius: 50px;
+}
+
+#picanime {
+    opacity: 0;
+    border-radius: 50px;
+}
+#moon {
+    border-radius: 50px;
+
+}
+
+
+.picture {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#yes {
+    text-align: center;
+    background-color: #54ca59;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#no {
+    text-align: center;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#yes2 {
+    text-align: center;
+    background-color: #54ca59;
+    border: none;
+    color: white;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+#yes3 {
+    text-align: center;
+    background-color: #54ca59;
+    border: none;
+    color: white;
+    padding: 60px 128px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#yes4 {
+    text-align: center;
+    background-color: #54ca59;
+    border: none;
+    color: white;
+    padding: 120px 256px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#yes5 {
+    text-align: center;
+    background-color: #54ca59;
+    border: none;
+    color: white;
+    padding: 240px 512px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 140px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
